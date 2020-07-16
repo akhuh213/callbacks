@@ -87,3 +87,29 @@ function flying(){
 }
 
 console.log(superHero(speed,flying));
+
+function blastOff() {
+    let num = 0;
+
+    for (let i = 10; i >= num; i--) {
+        console.log(i); // 10,9,8,7...
+    }
+    console.log('BLAST OFF!!!!');
+}
+
+setTimeout(blastOff, 5000); //after 5 seconds, fun the function
+
+
+// prints my name. set timeout and pass in function and a time (5000)
+
+
+
+function printName(name) {
+    console.log(name);git 
+}
+let myName = 'Alice';
+setTimeout(funtion(){
+    printName(myNameTwo);
+}, 5000);
+
+
