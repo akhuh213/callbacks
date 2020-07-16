@@ -113,3 +113,16 @@ setTimeout(funtion(){
 }, 5000);
 
 
+//Iterators
+
+//forEach
+
+const collectables = ['Bomag', 'CMI Corp', 'Wirtgen', 'Catepillar'];
+
+collectables.forEach(function(element) {
+    console.log(element)
+});
+
+collectables.forEach(element => {
+    console.log(element);
+});
